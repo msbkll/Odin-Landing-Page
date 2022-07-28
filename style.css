@@ -45,39 +45,61 @@ body {
 
 /*              <-- main --> */
 
+
+
 .current {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 
-.placeholder {
-    background-color: grey;
-    height: 100px;
-    width: 350px;
-    color: white;
-    text-align: center;
-    
+
+
+/*              <-- main current..>  */
+
+.current {
+    padding-bottom: 70px;
+    gap: 60px;
+}
+
+.current .left {
+    margin-left: 260px;
+}
+
+
+.current .right {
+    margin-right: 270px;
 }
 
 .left h2{
     display: flex;
     font-size: 48px;
     color: #F9FAF8;
-    flex-wrap: wrap;
+    margin-bottom: 0px;
 
 }
 
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .left button {
     background-color: #3883F6;
     color: white;
     border-radius: 4px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    
+}
+.placeholder {
+    background-color: grey;
+    height: 150px;
+    width: 400px;
+    color: white;
+    text-align: center;
     
 }
