@@ -164,8 +164,90 @@ body {
 }
 
 
+/*               <-- Quote --> */
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
 
+.quote .quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*              <-- Last section --> */
+
+.sign-up {
+    display: flex;
+    background-color:#3882F6;
+    align-self: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 10px;
+    padding: 50px;
+    
+    
+}
+
+.sign-up .su-container {
+    display: flex;
+    gap: 100px
+}
+
+.sign-up .left {
+    justify-content: flex-start;
+
+}
+
+.sign-up .su-header {
+    color: #F9FAF8;
+    font-weight: bolder;
+
+}
+
+.su-text {
+    color: #E5E7EB;
+}
+
+.sign-up .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right button {
+    background-color: transparent;
+    outline-style: solid;
+    outline-color: white;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+
+}
+
+/*              <-- footer --> */
+
+.footer {
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.footer .copyright {
+    text-align: center;
+    color: white;
+}
 
 
 
