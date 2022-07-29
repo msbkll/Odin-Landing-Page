@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -100,6 +101,72 @@ body {
     height: 150px;
     width: 400px;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+/*              <-- Random Information --> */
+
+.rdm-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rdm-info h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+
+}
+
+.card {
+    height: 175px;
+    width:  175px;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 3px;
+    margin: 30px;
+    margin-bottom: 20px;
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+    margin-right: 270px;
+    
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+
+.descript {
+    text-align: center;
+    width: 175px;
+    font-size: 18px;
+
+    
+}
+
+
+
+
+
+
+
+
